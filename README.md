@@ -1,4 +1,4 @@
-# Drag and limit the boundary
+## Drag and limit the boundary
 #### JS code
 ```javascript
 var dragging = false; 
