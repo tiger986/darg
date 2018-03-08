@@ -17,19 +17,19 @@ document.onmousemove = function(e) {
         var oX = e.clientX - iX; 
         var oY = e.clientY - iY;
 	if(oX <= 0){
-	        oX = 0;
-	    }
-	    if(oX >= 700){
-		oX = 700;
-	    }
-	    if(oY <= 0){
-		oY = 0;
-	    }
-	    if(oY >= 400){
-		oY = 400;
-	    }
-	    $("#drag").css({"left":oX + "px", "top":oY + "px"}); 
-	    return false; 
+	    oX = 0;
+	}
+	if(oX >= 700){
+	    oX = 700;
+	}
+	if(oY <= 0){
+	    oY = 0;
+	}
+	if(oY >= 400){
+	    oY = 400;
+	}
+	$("#drag").css({"left":oX + "px", "top":oY + "px"}); 
+	return false; 
     } 
 }; 
 		
