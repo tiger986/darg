@@ -1,5 +1,5 @@
 # Drag and limit the boundary
-#### * JS code
+#### JS code
 ```javascript
     var dragging = false; 
     var iX, iY; 
